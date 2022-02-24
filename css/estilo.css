@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
+body {
+  color: #070203;
+  font-size: 15px;
+  font-family: "Montserrat";
+  margin: 0%;
+  text-align: justify;
+}
+
+div.fundo {
+  text-align: center;
+  background: center / cover no-repeat url(../cool-background.png);
+  color: #fff0f3;
+  padding: 1px 0px 1px 0px;
+  position: relative;
+  height: 680px;
+}
+
+.filtro-foto:hover {
+  position: relative;
+  -webkit-filter: contrast(120%) saturate(125%);
+  filter: contrast(120%) saturate(125%);
+}
+
+.prazer {
+  margin: 30px 0px 30px 0px;
+}
+
+.nome {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.profissao {
+  margin: 30px 0px 30px 0px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+img {
+  width: 220px;
+}
+
+div.container {
+  margin: 0px 40px 0px 40px;
+}
+
+.cabecalho {
+  color: #a4133c;
+  padding-top: 25px;
+  font-size: 22px;
+}
+
+.cabecalho1 {
+  color: #a4133c;
+  padding: 25px 0px 0px 0px;
+  font-size: 22px;
+}
+
+.publicacaozero {
+  color: #c9184a;
+  margin: 15px 0px 15px 0px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.publicacao1 {
+  color: #c9184a;
+  padding-top: 18px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.publicacao2 {
+  color: #070203;
+  font-size: 15px;
+}
+
+.publicacao3 {
+  color: #070203;
+  font-size: 13px;
+  line-height: 5px;
+}
+
+.botao {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.onda {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.onda svg {
+  position: relative;
+  display: block;
+  width: calc(123% + 1.3px);
+  height: 166px;
+}
+
+.onda .shape-fill {
+  fill: #ffffff;
+}
