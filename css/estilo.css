@@ -17,7 +17,7 @@ div.fundo {
   color: #fff0f3;
   padding: 1px 0px 1px 0px;
   position: relative;
-  height: 680px;
+  height: 530px;
 }
 
 .filtro-foto:hover {
@@ -92,23 +92,24 @@ div.container {
   text-align: center;
 }
 
-.onda {
-  position: absolute;
-  bottom: -70px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
+@media (max-width: 720px) {
+  .prazer {
+    font-size: 20px;
+  }
 
-.onda svg {
-  position: relative;
-  display: block;
-  width: calc(123% + 1.3px);
-  height: 166px;
-}
+  .nome {
+    font-size: 30px;
+  }
 
-.onda .shape-fill {
-  fill: #ffffff;
+  img {
+    width: 220px;
+  }
+
+  .profissao {
+    font-size: 25px;
+  }
+
+  .margin-logo {
+    margin-right: 10px;
+  }
 }
